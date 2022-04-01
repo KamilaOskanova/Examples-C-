@@ -47,6 +47,11 @@ string Method4(int count, string text)
         i++;
     }
     return result;
+   /* for (int i = 0; i < count; i++)
+    {
+        result = result + text;
+    }
+    */
 }
 
 string res = Method4 (10, "asdf");
